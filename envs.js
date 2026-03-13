@@ -10,6 +10,7 @@ export const env = {
     "google",
     "brave",
     "duckduckgo",
+    "bing"
     // "bing" // Bing 目前结果不稳定，默认禁用 - Bing results are currently unstable, disabled by default
   ],
 
@@ -20,7 +21,7 @@ export const env = {
   // API 访问令牌 - API access token for authentication
   // 如果设置了 TOKEN，则所有 /search 请求都需要在 header 或 query 中提供此 token
   // If TOKEN is set, all /search requests must provide this token in header or query
-  TOKEN: null,
+  TOKEN: 'env.API_KEY',
 };
 
 export const setEnv = (newEnv) => {
