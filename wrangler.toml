@@ -2,7 +2,7 @@
 # 更多配置选项: https://developers.cloudflare.com/workers/wrangler/configuration/
 
 # Worker 名称(修改为你想要的名称)
-name = "cloudflare-search"
+name = "search"
 
 # Worker 主文件
 main = "worker.js"
